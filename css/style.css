@@ -1,0 +1,258 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-weight: lighter;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 0.9rem;
+    color: #88949B;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 0.9rem;
+    letter-spacing: 2px;
+}
+
+header {
+    font-size: 1.1rem;
+    padding-top: 15px;
+    padding-bottom: 150px;
+    padding-left: 120px;
+    padding-right: 120px;
+    background-color: #304353;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 180px;
+}
+
+.navbar div {
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-left: 70px;
+}
+
+h1,
+h2,
+h3 {
+    color: #555657;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+
+a {
+    color: #BCC3C7;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    padding: 10px 40px;
+    border: none;
+    background-color: #E44C65;
+    color: white;
+    border-radius: 3px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+.heading {
+    margin: auto;
+    width: 90%;
+    line-height: 120%;
+}
+
+.logo {
+    color: #BCC3C7;
+}
+
+.heading h1 {
+    color: #BCC3C7;
+    font-weight: bolder;
+}
+
+header div>h1,
+p,
+button {
+    margin: 15px;
+}
+
+section.background-snapshot {
+    background-color: #F0F0F0;
+}
+
+article.background {
+    padding: 150px;
+    position: relative;
+}
+
+.card {
+    box-shadow: 0 0 10px #c9c9c9;
+    width: 40%;
+    padding: 40px 60px;
+    overflow: auto;
+    margin: auto;
+    background-color: white;
+}
+
+.card h3 {
+    text-align: left;
+    margin: auto;
+}
+
+.card p {
+    margin: 30px 0 0 0;
+    float: left;
+    text-align: left;
+    font-size: 0.7rem;
+}
+
+.background .circle {
+    position: absolute;
+    top: 37%;
+    right: 23%;
+    border-radius: 100%;
+    width: 140px;
+    height: 140px;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px #c9c9c9;
+}
+
+.snapshot-team {
+    width: 60%;
+    margin: auto;
+}
+
+.team {
+    display: flex;
+    justify-content: space-around;
+    width: 85%;
+    margin: auto;
+}
+
+.team .card {
+    padding: 40px 40px;
+    margin: 70px 10px;
+    width: 20%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.team .card .circle {
+    margin: auto;
+    width: 90px;
+    height: 90px;
+    background-color: #BCC3C7;
+    border-radius: 50%;
+}
+
+.team .card:last-child {
+    background-color: #304353;
+}
+
+.team .card h4 {
+    color: #E44C65;
+    font-size: 0.8rem;
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+section.gallery {
+    padding: 50px;
+}
+
+article.gallery {
+    width: 70%;
+    margin: auto;
+}
+
+.gallery img {
+    width: 37%;
+    display: inline-block;
+    margin: 5px;
+}
+
+div.gallery-img {
+    width: 80%;
+    margin: 50px auto;
+    padding: 0;
+}
+
+footer {
+    background-color: #304353;
+    padding: 40px;
+}
+
+footer h2 {
+    color: #BCC3C7;
+}
+
+footer form {
+    width: 60%;
+    margin: 40px auto 80px auto;
+}
+
+footer input {
+    padding: 12px 20px;
+    width: 40%;
+    margin: 5px;
+    background-color: #304353;
+    border: 1px solid #BCC3C7;
+    border-radius: 3px;
+    color: #BCC3C7;
+    font-size: 1rem;
+}
+
+footer textarea {
+    width: 85%;
+    margin: 30px auto 10px auto;
+    background-color: #304353;
+    border: 1px solid #BCC3C7;
+    padding: 10px 29px;
+    border-radius: 3px;
+    color: #BCC3C7;
+    font-size: 1.2rem;
+    height: 150px;
+}
+
+footer textarea,
+input:focus {
+    outline: none;
+}
+
+textarea::placeholder {
+    color: #BCC3C7;
+    font-size: 0.9rem;
+}
+
+input::placeholder {
+    color: #BCC3C7;
+    font-size: 0.9rem;
+}
+
+.copyright {
+    font-weight: 900;
+    letter-spacing: 0;
+    font-size: 0.9rem;
+}
